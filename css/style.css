@@ -3,14 +3,33 @@
     border: 0;
     box-sizing: border-box;
 }
-
-.container {
+body {
     height: 100vh;
-    background-color: black;
-    color: rgb(196, 113, 113);
-    font-size: 150%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
+    
 }
+
+.container-plus {
+    border: 3px solid rgb(125, 146, 214);
+    padding: 5em;
+    border-radius: 50px;
+    background-image: url('https://images.unsplash.com/photo-1524721696987-b9527df9e512?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1933&q=80');
+    background-size: cover;
+}
+
+.container {
+    color: rgb(196, 113, 113);
+    border: 3px solid rgb(125, 146, 214);
+    font-size: 150%;
+    padding: 5em;
+    border-radius: 50px;
+    background-color: black;  
+}
+
+
+
+
 
