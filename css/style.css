@@ -7,8 +7,8 @@
 .container {
     height: 100vh;
     background-color: black;
-    color: rgb(155, 83, 83);
-    font-size: 130%;
+    color: rgb(196, 113, 113);
+    font-size: 150%;
     display: flex;
     justify-content: center;
     align-items: center;
